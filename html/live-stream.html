@@ -2,21 +2,83 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <title>live-stream</title>
-    <link rel="stylesheet" href="./css/live-stream.css">
+	<meta charset="UTF-8">
+	<title>live-stream</title>
+	
+	<!-- bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+	<!-- end bootstrap -->
+
+
+	<script src="https://www.w3schools.com/lib/w3.js"></script>
+	<link rel="stylesheet" href="../css/common.css">
+	<link rel="stylesheet" href="../css/live-stream.css">
+
 </head>
-
 <body>
+	<!-- <div w3-include-html="header.html"></div> -->
+	<div class="wp-content">
+		<div class="wp-video left">
+			<div class="frame-video embed-responsive embed-responsive-16by9">
+				
+				<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
 
-
-    <div w3-include-html="header.html"></div>
-    
-    <div w3-include-html="footer.html"></div>
-    <script>
-        w3.includeHTML();
-
-    </script>
+			</div>
+			<div class="row info-video">
+				<div class="info-left col-md-8">
+					<h2>This is video Title</h2>
+					<span>NamND</span> 
+					<button type="button" class="btn"> Follow</button>
+					</br>
+					<span>Categories: </span>
+					<span>Java</span>
+				</div>
+				<div class="info-right col-md-4">
+					<button type="button" class="btn btn-lg btn-fb right"><i class="fa fa-facebook left"></i> Share+</button>
+				</div>
+			</div>
+			<div class="des-video">
+				<h2>Description</h2>
+				<p>xxxxxxxxxxfdsafasdfdsafpp</p>
+			</div>
+		</div>
+		<div class="wp-chat right">
+			<form>
+				<div class="content-chat">
+					<div class="one-msg clearfix">
+					    <img src="../img/avarta.jpg" alt="" class="left"/>
+					    <h5 class="user-chat">NamND9</h5>
+					    <span>I Like ItI Like ItI Like ItI Like ItI Like ItI Like ItI Like ItI Like ItI Like It</span>
+					</div>
+                    <!--end one mess-->
+                    <div class="one-msg clearfix">
+					    <img src="../img/avarta.jpg" alt="" class="left"/>
+					    <h5 class="user-chat">NamND9</h5>
+					    <span>I Like ItI Like ItI Like ItI Like ItI Like ItI Like ItI Like ItI Like ItI Like It</span>
+					</div>
+                    <!--end one mess-->
+				</div>
+<!--				end content chat-->
+				<div class="input-chat">
+					<div class="text-chat left">
+						<input type="text" name="input">
+					</div>
+					<div class="button-chat right">
+						<input type="button" name="input" value="send">
+					</div>
+				</div>
+<!--				end input chat-->
+			</form>
+		</div>
+<!--		end wp chat-->
+	</div>
+	<!-- <div w3-include-html="footer.html"></div> -->
+	<script>
+		w3.includeHTML();
+	</script>
 </body>
 
 </html>
