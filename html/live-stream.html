@@ -12,14 +12,15 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
 	<!-- end bootstrap -->
 
-
-	<script src="https://www.w3schools.com/lib/w3.js"></script>
 	<link rel="stylesheet" href="../css/common.css">
 	<link rel="stylesheet" href="../css/live-stream.css">
 
 </head>
 <body>
-	<!-- <div w3-include-html="header.html"></div> -->
+    <a class="btn btn-block btn-social btn-twitter">
+    <span class="fa fa-twitter"></span> Sign in with Twitter
+  </a>
+    <object name="foo" class="ojb-header" type="text/html" data="header.html"></object>
 	<div class="wp-content">
 		<div class="wp-video left">
 			<div class="frame-video embed-responsive embed-responsive-16by9">
@@ -30,14 +31,15 @@
 			<div class="row info-video">
 				<div class="info-left col-md-8">
 					<h2>This is video Title</h2>
-					<span>NamND</span> 
-					<button type="button" class="btn"> Follow</button>
-					</br>
+					<span class="">NamND</span> 
+					<button type="button" class="btn-follow btn-primary">Follow</button>
+					<div>
 					<span>Categories: </span>
 					<span>Java</span>
+					</div>
 				</div>
 				<div class="info-right col-md-4">
-					<button type="button" class="btn btn-lg btn-fb right"><i class="fa fa-facebook left"></i> Share+</button>
+					<button type="button" class="btn btn-primary right">Share+</button>
 				</div>
 			</div>
 			<div class="des-video">
@@ -63,9 +65,9 @@
 				</div>
 <!--				end content chat-->
 				<div class="input-chat">
-					<div class="text-chat left">
-						<input type="text" name="input">
-					</div>
+						<textarea class="text-chat">
+						    
+						</textarea>
 					<div class="button-chat right">
 						<input type="button" name="input" value="send">
 					</div>
@@ -75,10 +77,7 @@
 		</div>
 <!--		end wp chat-->
 	</div>
-	<!-- <div w3-include-html="footer.html"></div> -->
-	<script>
-		w3.includeHTML();
-	</script>
+	<object name="foo" class="ojb-footer" type="text/html" data="footer.html"></object>
 </body>
 
 </html>
