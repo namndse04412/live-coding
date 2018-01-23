@@ -1,124 +1,54 @@
-.ojb-header {
-    height: 60px;
-    width: 100%;
-}
-
-.ojb-footer {
-    height: 50px;
-    width: 100%;
-    background: #19171c;
-}
-
-.wp-content {
-    height: 700px;
-    width: 100%;
-    background: #faf9fa;
-}
-
-
-.wp-video {
-    width: 70%;
-    height: 100%;
-    padding: 20px 5px 20px 20px;
-}
-
-.wp-chat {
-    width: 30%;
-    height: 100%;
-    padding: 20px 5px;
-    background: #efeef1;
-}
-
-.frame-video {
-    width: 100%;
-    height: 60%;
-}
-
-.info-video {
-    width: 100%;
-    height: 20%;
-}
-
-.des-video {
-    width: 100%;
-    height: 20%;
-}
-
-
-.wp-chat form {
-    width: 100%;
-    height: 100%;
-    position: relative;
-}
-
-.content-chat {
-    width: 100%;
-    height: 83%;
-}
-
-.one-msg {
-    padding: 5px;
-    background: white;
-}
-
-.one-msg img {
-    width: 50px;
-    height: 50px;
-    margin-right: 5px;
-}
-
-.one-msg .user-chat {}
-
-.input-chat {
-    width: 100%;
-    height: 40px;
-    bottom: 70px;
-    position: absolute;
-}
-
-
-.input-chat textarea {
-    width: 100%;
-    height: 4em;
-    resize: none;
-    overflow: hidden;
-    padding: 10px;
-}
-
-.input-chat .button-chat {
-    width: 80px;
-    height: 40px;
-}
-
-.input-chat input[type="button"] {
-    width: 100%;
-    height: 100%;
-    background: #6441a4;
-    border: 0;
-    color: white;
-}
-
-.info-video {
+.container-fluid {
     padding: 0;
     margin: 0;
 }
 
-.info-left .btn-follow{
-    margin-left: 20px;
-    border: none;
-    padding:0 20px;
+.container-fluid .row {
+    padding: 0;
+    margin: 0;
 }
 
-.info-right {
-    padding-top: 5px;
-    padding-right: 0px;
-}
-
-.des-video {
-    padding: 15px;
-}
-
-.des-video p {
+.wp-content {
     width: 100%;
-    height: 60%;
+}
+
+.wp-chat {
+    height: 100%;
+}
+
+.video {
+    height: 500px;
+}
+
+.content-chat {
+    height: 420px;
+}
+
+.content-chat .small-image{
+    width: 30px;
+    height: 20px;
+}
+
+.content-chat a{
+    text-decoration: none;
+}
+
+.input-chat {
+    margin-top: 10px;
+}
+
+.text-chat {
+    width: 90%;
+    height: 4em;
+    resize: none;
+    overflow: hidden;
+    padding: 10px;
+    margin: 0 20px;
+}
+
+.btn-chat {
+    padding: 5px;
+    margin-right: 20px;
+    margin-top: 10px;
+    background: #6441a4;
 }

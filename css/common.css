@@ -1,29 +1,92 @@
-*{
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	-webkit-box-sizing: border-box;
+* {    
+    box-sizing: border-box!important;
+    -moz-box-sizing: border-box!important;
+    -webkit-box-sizing: border-box!important;
 }
 
-.left{
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+
+  > .col,
+  > [class*="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+
+
+/*scrollbar style*/
+.scrollbar
+{
 	float: left;
+	overflow-y: scroll;
 }
 
-.right{
-	float: right;
+.style-2::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 5px;
+	background-color: #F5F5F5;
+}
+
+.style-2::-webkit-scrollbar
+{
+	width: 5px;
+	background-color: #F5F5F5;
+}
+
+.style-2::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #D62929;
+}
+/*/scrollbar style*/
+
+.no-space{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.full-height {
+    height: 100%!important;
+}
+
+.full-width {
+    width: 100%!important;
 }
 
 .clearfix:after {
-  visibility: hidden;
-  display: block;
-  font-size: 0;
-  content: " ";
-  clear: both;
-  height: 0;
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
 }
-.clearfix { display: inline-block; }
+
+.clearfix {
+    display: inline-block;
+}
+
 /* start commented backslash hack \*/
-* html .clearfix { height: 1%; }
-.clearfix { display: block; }
+
+* html .clearfix {
+    height: 1%;
+}
+
+.clearfix {
+    display: block;
+}
+
 /* close commented backslash hack */
