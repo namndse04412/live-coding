@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>live-stream</title>
+
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/common.css">
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+    <!-- end bootstrap -->
+
+
+    <link rel="stylesheet" href="../css/live-stream.css">
+    <link rel="stylesheet" href="../css/video.css">
+
+</head>
+
+<body class="row container-fluid">
+
+    <object name="foo" style="height: 60px; margin-bottom: 10px;" class="col-md-12" type="text/html" data="header.html"></object>
+    <div class="wp-content row no-gutters">
+        <div class="scrollbar col-md-8 video style-2">
+            <div class="row">
+                <video height="400px" class="col-md-12" controls>
+                  <source src="https://www.youtube.com/watch?v=g20t_K9dlhU" type="video/mp4">
+                </video>
+                <!--                /video-->
+
+                <dl class="col-md-12">
+                    <dt class="col-md-12">This is title Video</dt>
+                    <div class="col-md-12 row">
+                        <div class="owner col-md-3">namND views</div>
+                        <div class="col-md-3">
+                            <button class="btn btn-primary">Follow</button>
+                        </div>
+                        <div class="view-count col-md-4 text-right">12545 views</div>
+                        <div class="view-count col-md-2">
+                            <button class="btn btn-primary">Share+</button>
+                        </div>
+                    </div>
+                    <dt class="col-md-3">Categories:</dt>
+                    <dd class="col-md-9">Java, C#</dd>
+                    <dt class="col-md-3">Description</dt>
+                    <dd class="col-md-9">I Like ItI Like ItI Like ItI Like ItI Like ItI Like ItI Like</dd>
+                </dl>
+                <!--                /info-->
+            </div>
+        </div>
+        <!--        /wp-video-->
+        <div class="wp-chat relative-video col-md-4">
+            <div class="col-md-12 h5">Relative Video</div>
+            <div class="scrollbar style-2">
+                <div class="row">
+                    <!--                 one-video-->
+                    <div class="card col-md-12">
+                        <img class="card-img-top" src="../img/avarta.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="card-text  no-space">Bai1 . cai dat bai moi</p>
+                            <p class="card-text  no-space">NamND</p>
+                        </div>
+                    </div>
+                    <!--                 /one-video-->
+                     <!--                 one-video-->
+                    <div class="card col-md-12">
+                        <img class="card-img-top" src="../img/avarta.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="card-text  no-space">Bai1 . cai dat bai moi</p>
+                            <p class="card-text  no-space">NamND</p>
+                        </div>
+                    </div>
+                    <!--                 /one-video-->
+                     <!--                 one-video-->
+                    <div class="card col-md-12">
+                        <img class="card-img-top" src="../img/avarta.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="card-text  no-space">Bai1 . cai dat bai moi</p>
+                            <p class="card-text  no-space">NamND</p>
+                        </div>
+                    </div>
+                    <!--                 /one-video-->
+                </div>
+
+            </div>
+            <!--/content chat-->
+
+        </div>
+    </div>
+    <object name="foo" style="height: 50px" class="col-md-12 no-space" type="text/html" data="footer.html"></object>
+
+</body>
+
+</html>

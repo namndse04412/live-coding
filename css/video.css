@@ -1,0 +1,18 @@
+.relative-video{
+    height: 536px;
+}
+
+.relative-video .style-2{
+    height: 95%;
+    width: 100%;
+}
+
+.relative-video .card-img-top{
+    height: 150px;
+    width: 400px;
+}
+
+.card{
+    height: 250px;
+    border: 0;
+}
